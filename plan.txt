@@ -1,0 +1,37 @@
+1. Set up & Install app:
+- npm install
+- npm run dev 
+- set up helmet 
+- create database on render 
+- assign port on .env 
+- rename env 
+- add db connection string from render 
+- check db connection 
+- create readme
+
+2. Plan and design your database schema 
+- use chatbot to design egg theme to create ERD diagram with mermaid 
+- use bot to alter initialisation script to create database
+- use chatbot to create eggy seed data 
+
+3. Write a database initialisation script
+- transfer egg theme to database script 
+- npm run reset database 
+
+4. Plan out your API routes and resources. Create your requirements tables similar to the one above.
+    -- rename everything
+    i Specify end point of handlers
+    ii call helper functions 
+    ii1 Add response status & responses eg success, payload 
+
+Implement CRUD operations using the pg package to interact with your database.
+4a. Writing helper functions 
+    -- rename everything
+    i exporting / importing the function
+    ii writing query text - the SQL 
+    iii connecting SQL + requests code 
+    iv using pool to connect to database 
+    v return db result to api handler 
+
+
+FISH
